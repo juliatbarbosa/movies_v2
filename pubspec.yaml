@@ -1,0 +1,27 @@
+name: movie_v2 #nome do projeto
+description: A new Flutter project. #descrição do projeto
+
+publish_to: 'none' #se vai ser publicado no site pub dev
+
+version: 1.0.0+1 #versão
+
+environment:
+  sdk: '>=2.19.6 <3.0.0' #versão para rodar no dart
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+  uses-material-design: true 
+
